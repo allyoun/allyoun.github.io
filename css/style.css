@@ -1,0 +1,85 @@
+
+body{
+	padding:0;
+	font-family: 'Lato', sans-serif;
+	background:#fefefe;
+	margin: 8em 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-----start-header----*/
+.header h1 {
+	color: #010101;
+	font-size: 3em;
+	font-weight: 700;
+	border: 4px solid #010101;
+	width: 33%;
+	margin: 0px auto;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.header h1 a {
+	color:#010101;
+	text-decoration:none;
+	display:block;
+}
+.header p {
+	color:#010101;
+	font-size:1.5em;
+	letter-spacing:2px;
+	font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:1em;
+}
+.header {
+	margin-bottom: 8em;
+}
+
+.search-box {
+	position: relative;
+	background: #fff;
+	  border: 1px solid #eaeaea;
+}
+.search-box form input[type="text"]   {
+	border: none;
+	outline: none;
+	padding: 15px 0 15px 15px;
+	-webkit-apperance: none;
+	margin: 0;
+	background: #fff;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	color: #696969;
+	width: 87%;
+	font-size:1.2em;
+	letter-spacing:1px;
+	font-weight:400;
+
+}
+.search-box form input[type="submit"] {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: url(../images/search.png) no-repeat 0px 0px #fff;
+	position: absolute;
+	right: 13px;
+	bottom: 13px;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	font-size: 0;
+}
